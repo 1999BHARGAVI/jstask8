@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function problems</title>
+  </head>
+  <body>
+    <script>
+       /*EASY LEVEL PROBLEMS*/
+
+      /*(1)Create a function that takes two numbers as arguments and returns their sum.*/
+      /* 
+      var a = +prompt("enter first number:");
+      var b = +prompt("enter second number:");
+      function sum() {
+        c = a + b;
+        return c;
+      }
+      console.log(sum());
+ 
+             (or)
+
+      function sum(a,b){
+        c=a+b
+        return c
+      }
+      console.log("to sum the two number:"+sum(2,4))
+    */
+
+      /*(2)Write a function that takes an integer minutes and converts it to seconds.*/
+      /* num=+prompt("enter the minutes:")
+            if(num!=0){
+                num=(num*60)
+            console.log("seconds:"+num)
+        } 
+                (or)
+
+          num=+prompt("enter the minutes:")
+          function convert(){
+            if(num!=0){
+                num=(num*60)
+            return num    
+          }
+        }
+        console.log("seconds:"+convert())
+        */
+
+      /*(3)Create a function that takes a number as an argument, increments the number by +1 and returns the result.*/
+      /*  function increments(a){
+               b=a+1
+               return b
+           }
+           console.log(increments(4))
+        */
+
+      /*(4)Create a function that takes the age in years and returns the age in days.*/
+      /* num=+prompt("enter the age in years:")
+        function age(){
+        if(num!=0){
+           num=(num*365)
+           return num
+    
+        }
+        }
+        console.log("age in Days:"+age())
+        */
+      /*(5)sniCreate a function that takes voltage and current and returns the calculated power.*/
+       /*  function power_calculate(current,voltage){
+               power=voltage*current
+               return power
+         }
+          console.log("power:"+power_calculate(10,20))*/
+      /*(6)Write a function that returns the string "something" joined with a space " " and the given argument a.*/
+      /*s=""
+        function string(a){
+            a="something"
+            b=a+" "+""
+    
+            return b
+        }
+        console.log(string())
+        */
+      /*(7)Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.*/
+      /*  a=+prompt("enter the first number:")
+          b=+prompt("enter the second number:")
+          sum=0
+          function sum1(){
+            sum=a+b
+            if(sum==10){
+            d=sum=true
+            return d 
+            }
+            if(sum!=10){
+                e=false
+                return e
+            }
+          }
+          console.log("sum is:"+sum1())
+
+
+                    (or)
+                     
+          num=+prompt("enter the number:")
+          function compare(a,b){
+               if(num==a||num==b){
+                 
+                c=true
+                return c
+
+               }
+            if(num!=a){
+                d=false
+                return d
+            }
+
+          }
+          
+          console.log(compare(10,-5))
+          */
+
+      /*(8)Create a function that takes two strings as arguments and returns either true or false depending on whether
+           the total number of characters in the first string is equal to the total number of characters in the second string.*/
+
+      /*  function two_strings(a,b){
+                 if(a.length==b.length){
+                    c=true
+                    return c
+                 }
+                 else if(a.length!=b.length){
+                    d=false
+                    return d
+                 }
+           }
+           console.log("two strings are :"+two_strings("hello","mannn"))
+                                   
+*/
+      /*(9)Create a function that takes a name and returns a greeting in the form of a string. Don't use a normal function, use an arrow function.*/
+      /* var greeting=(a)=>{
+            name=a
+            return name
+
+         }
+         console.log(greeting("good morning"))
+         */
+
+      /*(10)Create a function that takes an array of 10 numbers (between 0 and 9) and returns a string of those numbers formatted as a phone number (e.g. (555) 555-5555).*/
+     /* b = " ";
+      i = -1;
+      var a = [2, 1, 5, 5, 5, 6, 7, 8, 7, 6];
+
+      for (a[i] = 0; a[i] < 1; a[i]++) {
+        b = a;
+        b.splice(3, 0, "-");
+        console.log(b.join(""));
+      }*/
+
+
+    </script>
+  </body>
+</html>

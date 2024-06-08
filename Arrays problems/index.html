@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays problems</title>
+</head>
+<body>
+    
+   
+    <script>
+        /*EASY LEVEL PROBLEMS*/
+        /*(11)Create a function that returns an array of strings sorted by length in ascending order.
+                    Example:
+                       sortByLength(["a", "ccc", "dddd", "bb"]) ➞ ["a", "bb", "ccc", "dddd"]
+        */
+        /*
+        var a=["a","ccc","dddd","bb"]
+        
+        function ascending(){
+            for(i=0;i<a.length;i++){
+                return a
+            }
+
+        }
+        console.log(ascending(a.sort()))
+       */
+       /*(12)Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+                  Example:
+                  findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
+        
+        */
+        /* debugger;
+        var a=[[4,3,7,1],[20,70,40,90],[1,2,0]]
+    
+
+        b=[]
+        for(i=0;i<a.length;i++){
+            t=0
+            for (j=0;j<a[i].length;j++){
+                 if(a!=0){
+                   t=a[0][0]>=a[0][1]&&a[0][0]>=a[0][2]?a[0][0]:a[0][1]>=a[0][2]&&a[0][1]>=a[0][0]?a[0][2]:a[0][3]
+                   
+                 }
+            }
+        }
+        b.push(t)
+        console.log(b) */
+
+/*a  = [9,50,67,9,8]
+temp = 0
+for(i in a)
+{
+    if(i > temp)
+    {
+        temp = i;
+    }
+}
+console.log(temp)
+
+
+*/
+/*
+var a=[[4,3,7],[20,70,40],[1,2,9]]
+      
+
+        b=[]
+        for(i=0;i<a.length;i++){
+            temp=0
+            for (j=0;j<a[i].length;j++){
+                
+                 if(a[i][j]>temp){
+                   temp=a[i][j]
+                
+
+                 }
+
+                }
+        
+        b.push(temp);
+        
+            }
+        console.log(b);
+
+*/
+/*(13)Create a function that takes an array of numbers and returns the second largest number.
+Example:
+secondLargest([10, 40, 30, 20, 50]) ➞ 40
+*/
+/*
+debugger;
+num=[10,40,30,20,50]
+max=num[0]
+     function dd(){
+    for(i=0;i<num.length-1;i++){
+        if(num[i]>max){
+            max=num[i]
+            return max
+        }
+    } 
+}
+console.log(dd())
+*/
+/*
+
+var a=[10,40,30,20,50]
+for(i of a){
+    console.lo
+}
+
+/*b=[]
+function secondLargest(a){
+    console.log(a)
+    i=0
+
+    
+    temp=0
+    
+    for (i of a){
+        
+        a.sort()
+        
+        if(i>temp){
+            temp=i
+           
+        }
+        
+          
+        
+        b.push(temp)
+        
+
+        return b
+    }
+
+}
+
+console.log(secondLargest([10,40,30,20,50]))
+*/
+/*
+var a=[[4,3,7],[20,70,40],[1,2,9]]
+      
+
+b=[]
+
+for(i=0;i<a.length;i++){
+    temp=0
+    
+
+    for (j=0;j<a[i].length-1;j++){
+        a[i].sort()
+         if(a[i][j]>temp){
+        -
+           temp=a[i][j]
+        
+
+         }
+
+        }
+
+b.push(temp);
+
+    }
+console.log(b);
+*/
+
+
+
+    </script>
+    </body>       
+</html>
